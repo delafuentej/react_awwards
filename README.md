@@ -10,10 +10,6 @@ This project is based on the JS Mastery tutorial, available at: https://www.yout
 
 ---
 
-## 🤖 Disclaimer
-
-All design credits go to Zentry. This project is created purely for educational purposes and is not intended for commercial use or public deployment.
-
 ## ⚙️ Tech Stack
 
 - **React.js**

@@ -812,6 +812,11 @@ video {
   height: 100%;
 }
 
+.size-96 {
+  width: 24rem;
+  height: 24rem;
+}
+
 .h-16 {
   height: 4rem;
 }
@@ -1863,6 +1868,11 @@ body {
   .md\:size-64 {
     width: 16rem;
     height: 16rem;
+  }
+
+  .md\:size-96 {
+    width: 24rem;
+    height: 24rem;
   }
 
   .md\:h-\[65vh\] {
