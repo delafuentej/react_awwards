@@ -21,6 +21,11 @@ const Hero = () => {
 
   const upcommingVideoIndex = (currentIndex % TOTAL_VIDEOS) + 1;
 
+  const words = ["Gaming", "Identity", "Reality", "Agentic AI"];
+
+  const currentWord = words[(currentIndex - 1) % words.length];
+  console.log("currentWord", currentWord);
+
   const handleMiniVideoClick = () => {
     setHasClicked(true);
     setCurrentIndex(upcommingVideoIndex);
@@ -90,12 +95,13 @@ const Hero = () => {
           </div>
         </div>
       )}
+
       <div
         id="video-frame"
         className="relative z-10 h-dvh w-screen overflow-hidden rounded-lg bg-blue-75"
       >
         <div>
-          <div className="mask-clip-path absolute-center absolute z-50 size-64 cursor-pointer overflow-hidden rounded-lg">
+          <div className="mask-clip-path absolute-center absolute z-50 size-36 md:size-64 cursor-pointer overflow-hidden rounded-lg ">
             <div
               className="origin-center scale-50 opacity-0 transition-all duration-500 ease-in hover:scale-100 hover:opacity-100"
               onClick={handleMiniVideoClick}
@@ -106,20 +112,22 @@ const Hero = () => {
                 loop
                 muted
                 id="current-video"
-                className="size-64 scale-150 origin-center object-cover object-center"
+                className="size-36 md:size-64  scale-150 origin-center object-cover object-center border-spacing-2 "
                 onLoadedData={handleVideoLoad}
               />
             </div>
           </div>
+
           <video
             ref={nextVideoRef}
             id="next-video"
             src={getVideoSrc(currentIndex)}
             loop
             muted
-            className="absolute-center invisible absolute z-20 size-64 object-cover object-center"
+            className="absolute-center invisible absolute z-20 size-36 md:size-64  object-cover object-center rounded-lg"
             onLoadedData={handleVideoLoad}
           />
+
           <video
             src={getVideoSrc(
               currentIndex === TOTAL_VIDEOS - 1 ? 1 : currentIndex
@@ -132,7 +140,7 @@ const Hero = () => {
           />
         </div>
         <h1 className="special-font hero-heading absolute bottom-5 right-5  z-40 text-blue-75">
-          <b>Gaming</b>
+          <b>{currentWord}</b>
         </h1>
 
         <div className="absolute left-0 top-0 z-40 size-full">
@@ -154,8 +162,9 @@ const Hero = () => {
           </div>
         </div>
       </div>
+
       <h1 className="special-font hero-heading absolute bottom-5 right-5 text-black">
-        <b>Gaming</b>
+        <b>{currentWord}</b>
       </h1>
     </div>
   );

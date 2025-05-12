@@ -2,6 +2,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import AnimatedTitle from "./AnimatedTitle";
+import BentoTilt from "./BentoTilt";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -30,27 +31,29 @@ const About = () => {
           Welcome to Zentry
         </h2>
         <AnimatedTitle
-          title="Disc<b>o</b>ver the world's <br/> l<b>a</b>rgest shared adventure"
+          title="Disc<b>o</b>ver the  <br />  world's <br /> l<b>a</b>rgest shared  <br /> adventure"
           containerClass="mt-5 !text-black text-center"
         />
 
         <div className="about-subtext">
           <p>The Metagame begins-your life, now an epic MMORPG.</p>
-          <p className="opacity-50">
+          <p className="text-gray-500">
             Zentry is the unified play layer driving attention and contribution
             through cross-world AI gamification.
           </p>
         </div>
       </div>
-      <div id="clip" className="h-dvh w-screen">
-        <div className="mask-clip-path about-image">
-          <img
-            src="/img/about.webp"
-            alt="backgroud"
-            className="absolute left-0 top-0 size-full object-cover"
-          />
+      <BentoTilt>
+        <div id="clip" className="h-dvh w-screen">
+          <div className="mask-clip-path about-image  border-black border-2">
+            <img
+              src="/img/about.webp"
+              alt="backgroud"
+              className="absolute left-0 top-0 size-full object-cover"
+            />
+          </div>
         </div>
-      </div>
+      </BentoTilt>
     </div>
   );
 };

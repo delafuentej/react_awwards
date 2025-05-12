@@ -25,7 +25,7 @@ const Features = () => {
                 radia<b>n</b>t
               </>
             }
-            description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
+            description="The game of games app transforming moments across Web2 & Web3 titles into rewards"
           />
         </BentoTilt>
         <div className="grid h-[135vh] grid-cols-2 grid-rows-3 gap-7">
