@@ -12,7 +12,7 @@ const About = () => {
         trigger: "#clip",
         start: "center center",
         end: "+=800 center",
-        scrup: 0.5,
+        scrub: 0.5,
         pin: true,
         pinSpacing: true,
       },
@@ -35,8 +35,11 @@ const About = () => {
         />
 
         <div className="about-subtext">
-          <p>The Game of Games begins-your life, now an epic MMORPG.</p>
-          <p>Zentry unites every player from countless games and platforms.</p>
+          <p>The Metagame begins-your life, now an epic MMORPG.</p>
+          <p className="opacity-50">
+            Zentry is the unified play layer driving attention and contribution
+            through cross-world AI gamification.
+          </p>
         </div>
       </div>
       <div id="clip" className="h-dvh w-screen">

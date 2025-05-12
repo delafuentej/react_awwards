@@ -1102,16 +1102,16 @@ video {
   text-align: center;
 }
 
-.font-circular-web {
-  font-family: circular-web, sans-serif;
-}
-
 .font-general {
   font-family: general, sans-serif;
 }
 
+.font-robertRegular {
+  font-family: robert-regular, sans-serif;
+}
+
 .font-zentry {
-  font-family: zentry, sanf-serif;
+  font-family: zentry-regular, sans-serif;
 }
 
 .text-5xl {
@@ -1338,7 +1338,7 @@ video {
 }
 
 .hero-heading {
-  font-family: zentry, sanf-serif;
+  font-family: zentry-regular, sans-serif;
   font-size: 3rem;
   line-height: 1;
   font-weight: 900;
@@ -1431,7 +1431,7 @@ video {
 }
 
 .animated-word {
-  font-family: zentry, sanf-serif;
+  font-family: zentry-regular, sans-serif;
   font-weight: 900;
   opacity: 0;
 }
@@ -1475,7 +1475,7 @@ video {
 }
 
 .bento-title {
-  font-family: zentry, sanf-serif;
+  font-family: zentry-regular, sans-serif;
   font-size: 2.25rem;
   line-height: 2.5rem;
   font-weight: 900;
@@ -1564,7 +1564,8 @@ video {
 }
 
 body {
-  font-family: "General Sans", sans-serif;
+  font-family: general, sans-serif;
+  font-family: "general";
   width: 100dvw;
   background-color: #dfdff0;
   overflow-x: hidden;

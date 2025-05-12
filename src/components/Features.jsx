@@ -8,13 +8,12 @@ const Features = () => {
       <div className="container mx-auto px-3 md:px-10">
         <div className="px-5 py-32">
           <p className="font-circular-web text-lg text-blue-50">
-            Into de Metagame Layer
+            Explore de Zentry Universe
           </p>
 
           <p className="font-circular-web max-w-md text-lg text-blue-50 opacity-50">
-            Immerse yourself in a rich and ever-expanding universe where a
-            vibrant array of products converge into an interconnected overlay
-            experience on your world.
+            Immerse yourself in an IP-rich product universe where players,
+            agentic AI and blockchain lead the new economic paradigm.
           </p>
         </div>
 

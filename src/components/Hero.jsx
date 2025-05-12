@@ -140,8 +140,10 @@ const Hero = () => {
             <h1 className="special-font hero-heading text-blue-100">
               <b>Redefine</b>
             </h1>
-            <p className="mb-5 max-w-64 font-robert text-blue-100">
-              <b>Enter de Metagame Layer. Unleash the Play Economy</b>
+            <p className="mb-5 max-w-64 font-robertRegular text-blue-100">
+              <b>
+                Enter de Metagame Layer. <br /> Unleash the Play Economy
+              </b>
             </p>
             <CustomButton
               id="watch-trailer"
