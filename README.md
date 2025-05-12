@@ -4,7 +4,7 @@ Live Demo: [react-awwards.vercel.app](https://react-awwards.vercel.app)
 
 ## 🤖 Introduction
 
-This project is a visually captivating website inspired by [Zentry](https://zentry.io/), designed to mimic the elegance and interactivity of Awwwards-winning sites. It showcases scroll-triggered animations, geometric transitions, 3D hover effects, and immersive video storytelling — all working together to deliver a luxurious, modern feel. Built with React and GSAP, the site emphasizes top-tier UI/UX design and responsive behavior across all devices.
+This project is a visually captivating website inspired by [Zentry](https://zentry.com/), designed to mimic the elegance and interactivity of Awwwards-winning sites. It showcases scroll-triggered animations, geometric transitions, 3D hover effects, and immersive video storytelling — all working together to deliver a luxurious, modern feel. Built with React and GSAP, the site emphasizes top-tier UI/UX design and responsive behavior across all devices.
 
 This project is based on the JS Mastery tutorial, available at: https://www.youtube.com/watch?v=41lfYQhUzRs&t=16005s
 
