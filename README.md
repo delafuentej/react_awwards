@@ -1,12 +1,76 @@
-# React + Vite
+# 🎬 Awwwards-Inspired Animated Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo: [react-awwards.vercel.app](https://react-awwards.vercel.app)
 
-Currently, two official plugins are available:
+## 🤖 Introduction
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a visually captivating website inspired by [Zentry](https://zentry.io/), designed to mimic the elegance and interactivity of Awwwards-winning sites. It showcases scroll-triggered animations, geometric transitions, 3D hover effects, and immersive video storytelling — all working together to deliver a luxurious, modern feel. Built with React and GSAP, the site emphasizes top-tier UI/UX design and responsive behavior across all devices.
 
-## Expanding the ESLint configuration
+This project is based on the JS Mastery tutorial, available at: https://www.youtube.com/watch?v=41lfYQhUzRs&t=16005s
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🤖 Disclaimer
+
+All design credits go to Zentry. This project is created purely for educational purposes and is not intended for commercial use or public deployment.
+
+## ⚙️ Tech Stack
+
+- **React.js**
+- **GSAP (GreenSock Animation Platform)**
+- **Tailwind CSS**
+
+---
+
+## 🔋 Features
+
+- **🔄 Scroll-Based Animations**  
+  Dynamic and engaging scroll-triggered interactions.
+
+- **🔷 Clip Path Shaped Transitions**  
+  Unique geometric animations using CSS clip-path for dramatic visual effects.
+
+- **🧲 3D Hover Effects**  
+  Interactive transformations that respond to user movement.
+
+- **🎥 Video Transitions**  
+  Integrated video segments enhance storytelling and user engagement.
+
+- **✨ Smooth UI/UX**  
+  Polished, seamless transitions ensure an intuitive user experience.
+
+- **📱 Fully Responsive Design**  
+  Consistent performance across mobile, tablet, and desktop.
+
+- **🧩 Clean Architecture**  
+  Modular, reusable components for maintainability and scalability.
+
+---
+
+## 🤸 Quick Start
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/)
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/delafuentej/react_awwards.git
+cd react_awwards
+```
+
+### 2. Install Dependencies
+
+```bash
+yarn install
+```
+
+### 3. Start Server
+
+```bash
+yarn dev
+```
